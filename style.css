@@ -3,7 +3,9 @@ body{
   background-color: lavender;
 }
 img{
-    width: 500px;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
 }
 h2{
   color:#333399;
@@ -32,14 +34,17 @@ background: linear-gradient(90deg, hsla(173, 70%, 85%, 1) 0%, hsla(64, 70%, 91%,
 p{
     font-size: 40px;
 }
+.links{
+    float: right;
+    color: black;
+    padding: 5px 10px;
+}
 .menu{
     list-style: none;
     font-family: cursive;
-    float: left;
     position: fixed;
     top: 10px;
     right: 30px;
-    color: black;
     cursor: pointer;
 }
 li:hover{
